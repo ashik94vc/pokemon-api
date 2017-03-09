@@ -20,3 +20,6 @@ app.get('/id/:id',function(req,res){
     res.send(pokemon[id-1]);
 });
 
+var server = app.listen(port,function(){
+    console.log("Gotta Catch 'em all")
+});
