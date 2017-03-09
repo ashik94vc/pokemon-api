@@ -1,0 +1,25 @@
+{
+  "name": "pokemon_api",
+  "version": "1.0.0",
+  "description": "A Pokemon API to work with Docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashik94vc/pokemon-api.git"
+  },
+  "keywords": [
+    "Node",
+    "Docker",
+    "Kubernetes",
+    "GCloud"
+  ],
+  "author": "Ashik Vetrivelu <vcashik@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashik94vc/pokemon-api/issues"
+  },
+  "homepage": "https://github.com/ashik94vc/pokemon-api#readme"
+}
