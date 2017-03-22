@@ -1,12 +1,10 @@
 apiVersion: v1
-kind: Pod
+kind: Services
 metadata:
   name: "pokemon"
-  labels:
-    app: pokemon-api
 spec:
   selector:
-    app: "pokemon"
+    app: "pokemon-api"
   ports:
     protocol: "TCP"
     port: 80
