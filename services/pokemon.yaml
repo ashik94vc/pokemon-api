@@ -6,9 +6,9 @@ spec:
   selector:
     app: "pokemon-api"
   ports:
-    protocol: "TCP"
-    port: 80
-    targetPort: 10080
-    nodePort: 31000
+    - protocol: "TCP"
+      port: 10080
+      targetPort: 80
+      nodePort: 31000
   type: NodePort
 
