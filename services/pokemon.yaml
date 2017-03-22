@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "pokemon"
+  labels:
+    app: pokemon-api
+spec:
+  selector:
+    app: "pokemon"
+  ports:
+    protocol: "TCP"
+    port: 80
+    targetPort: 10080
+    nodePort: 31000
+  type: NodePort
+
