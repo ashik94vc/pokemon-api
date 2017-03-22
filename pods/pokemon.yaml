@@ -15,8 +15,8 @@ spec:
           containerPort: 81
       resources:
         limits:
-          cpu: 0.2
-          memory: "10Mi"
+          cpu: "250m"
+          memory: "128Mi"
       livenessProbe:
         httpGet:
           path: /livenessBeamer
